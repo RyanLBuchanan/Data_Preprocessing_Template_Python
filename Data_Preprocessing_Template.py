@@ -38,6 +38,8 @@ y = le.fit_transform(y)
 print(y)
 
 # Splitting the dataset into the Training set and the Test set
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y)
 
 
 
