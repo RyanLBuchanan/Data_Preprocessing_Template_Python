@@ -49,7 +49,9 @@ print(y_train)
 
 print(y_test)
 
-# Feature scaling pplied after training to avoid info leakage - must be new data
-Feature Scaling 
+# Feature Scaling pplied after training to avoid info leakage - must be new data
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+
 
 
